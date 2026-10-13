@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amancio Alejandro Alem - Portfolio</title>
+    <!-- Google Fonts: Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Hamburger button for mobile -->
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú de navegación">
+        <svg fill="currentColor" viewBox="0 0 100 80" width="24" height="24">
+            <rect width="100" height="15" fill="var(--text-primary)"></rect>
+            <rect y="30" width="100" height="15" fill="var(--text-primary)"></rect>
+            <rect y="60" width="100" height="15" fill="var(--text-primary)"></rect>
+        </svg>
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h2>Amancio Alejandro Alem</h2>
+            <p class="subtitle">Ingeniería, Modelado y Fabricación 3D Avanzada</p>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#sobre-mi" class="nav-link active" data-target="sobre-mi">Sobre Mí</a></li>
+            <li><a href="#habilidades" class="nav-link" data-target="habilidades">Habilidades</a></li>
+            <li><a href="#proyectos" class="nav-link" data-target="proyectos">Proyectos</a></li>
+            <li><a href="#contacto" class="nav-link" data-target="contacto">Contacto</a></li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <a href="mailto:alealem96@gmail.com" aria-label="Correo Electrónico" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+            </a>
+            <a href="https://wa.me/5493424440295" aria-label="WhatsApp" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                    </path>
+                </svg>
+            </a>
+            <a href="https://instagram.com/ale.alem_" aria-label="Instagram" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Scroll Container -->
+    <main class="content" id="main-content">
+        <!-- Section: Sobre Mí (Combinado con Inicio) -->
+        <section id="sobre-mi" class="snap-section hero-section">
+            <div class="section-content">
+                <h1>Sobre Mí</h1>
+                <p>Soy un especialista técnico enfocado en la materialización de ideas complejas a través del diseño paramétrico (CAD) y la fabricación aditiva.</p>
+                <p>Trabajo en la intersección entre la ingeniería y el diseño visual, desarrollando desde simuladores médicos y soluciones de accesibilidad urbana, hasta la documentación audiovisual y fotográfica de cada proyecto. Mi objetivo es crear equipos a medida que optimicen flujos de trabajo en sectores de alta precisión tecnológica, médica y ambiental.</p>
+            </div>
+        </section>
+
+        <!-- Section: Habilidades -->
+        <section id="habilidades" class="snap-section skills-section">
+            <div class="section-content">
+                <h2>Habilidades</h2>
+                <p>Combino hardware y software para desarrollar soluciones de ingeniería eficaces. Estas son mis
+                    principales áreas de enfoque:</p>
+
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                        <span>Diseño y Modelado CAD Paramétrico en 3D</span>
+                    </div>
+                    <div class="skill-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                        <span>Operación avanzada de Impresión 3D FDM</span>
+                    </div>
+                    <div class="skill-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                            <rect x="9" y="9" width="6" height="6"></rect>
+                            <line x1="9" y1="1" x2="9" y2="4"></line>
+                            <line x1="15" y1="1" x2="15" y2="4"></line>
+                            <line x1="9" y1="20" x2="9" y2="23"></line>
+                            <line x1="15" y1="20" x2="15" y2="23"></line>
+                            <line x1="20" y1="9" x2="23" y2="9"></line>
+                            <line x1="20" y1="14" x2="23" y2="14"></line>
+                            <line x1="1" y1="9" x2="4" y2="9"></line>
+                            <line x1="1" y1="14" x2="4" y2="14"></line>
+                        </svg>
+                        <span>Prototipado rápido e Integración de Hardware</span>
+                    </div>
+                    <div class="skill-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                            </path>
+                        </svg>
+                        <span>Reparación y mantenimiento de equipos informáticos</span>
+                    </div>
+                    <div class="skill-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                            </path>
+                        </svg>
+                        <span>Diseño de Mecanismos y Alojamiento de Electrónica Estanca</span>
+                    </div>
+                    <div class="skill-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                        <span>Fotografía Integral (Producto, Social y Paisaje) y Registro Audiovisual</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Proyectos -->
+        <section id="proyectos" class="snap-section">
+            <div class="section-content">
+                <h2>Proyectos y Casos de Estudio</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/hapticos-hero.jpg" alt="Modelos Hápticos y Accesibilidad Urbana">
+                        </div>
+                        <div class="project-info">
+                            <h3>Modelos Hápticos</h3>
+                            <a href="hapticos.html" class="btn">Ver detalles</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/ambiental-hero.png" alt="Desarrollo para Monitoreo Ambiental: Freatígrafo y Pluviómetro">
+                        </div>
+                        <div class="project-info">
+                            <h3>Monitoreo Ambiental</h3>
+                            <a href="monitoreo-ambiental.html" class="btn">Ver detalles</a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/Brisas.jpg"
+                                alt="Fotografía, Registro Audiovisual y Dirección de Arte">
+                        </div>
+                        <div class="project-info">
+                            <h3>Fotografía y Dirección de Arte</h3>
+                            <a href="fotografia.html" class="btn">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Contacto -->
+        <section id="contacto" class="snap-section">
+            <div class="section-content">
+                <h2>Contacto</h2>
+                <p>¿Interesado en una colaboración técnica? Escríbeme directamente por cualquiera de estos canales:</p>
+
+                <div class="contact-info-grid">
+                    <a href="mailto:alealem96@gmail.com" class="contact-card" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <div class="contact-details">
+                            <span class="label">Correo Electrónico</span>
+                            <span class="value">alealem96@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/5493424440295" class="contact-card" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                            </path>
+                        </svg>
+                        <div class="contact-details">
+                            <span class="label">WhatsApp</span>
+                            <span class="value">+54 9 3424440295</span>
+                        </div>
+                    </a>
+
+                    <a href="https://instagram.com/ale.alem_" class="contact-card" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                        <div class="contact-details">
+                            <span class="label">Instagram</span>
+                            <span class="value">@ale.alem_</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

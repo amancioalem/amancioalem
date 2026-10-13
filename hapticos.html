@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos Hápticos y Accesibilidad Urbana - Portfolio 3D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="normal-page">
+    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú de navegación">
+        <svg fill="currentColor" viewBox="0 0 100 80" width="24" height="24">
+            <rect width="100" height="15" fill="var(--text-primary)"></rect>
+            <rect y="30" width="100" height="15" fill="var(--text-primary)"></rect>
+            <rect y="60" width="100" height="15" fill="var(--text-primary)"></rect>
+        </svg>
+    </button>
+
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h2>Amancio Alejandro Alem</h2>
+            <p class="subtitle">Ingeniería, Modelado y Fabricación 3D Avanzada</p>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html#sobre-mi" class="nav-link">Sobre Mí</a></li>
+            <li><a href="index.html#habilidades" class="nav-link">Habilidades</a></li>
+            <li><a href="index.html#proyectos" class="nav-link">Proyectos</a></li>
+            <li><a href="index.html#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <a href="mailto:alealem96@gmail.com" aria-label="Correo Electrónico" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+            </a>
+            <a href="https://wa.me/5493424440295" aria-label="WhatsApp" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                    </path>
+                </svg>
+            </a>
+            <a href="https://instagram.com/ale.alem_" aria-label="Instagram" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <main class="content" id="main-content">
+        <div class="article-container">
+            <a href="index.html#proyectos" class="back-btn">Volver al Inicio</a>
+            <h1>Modelos Hápticos y Accesibilidad Urbana</h1>
+            <img src="img/hapticos-hero.jpg" alt="Modelos Hápticos y Accesibilidad Urbana - Prototipo final">
+
+            <h2>El Desafío</h2>
+            <p>Facilitar la orientación espacial de personas con discapacidad visual en edificios e instituciones. El requerimiento principal consistió en diseñar una superficie táctil que permita identificar baños, aulas, oficinas y recorridos, resolviendo la restricción de orientación visual exclusivamente mediante el tacto.</p>
+
+            <h2>Desarrollo CAD</h2>
+            <p>Ante la falta de normativas estandarizadas en internet sobre dimensiones y relieves táctiles para planos, se desarrolló un sistema paramétrico propio en Fusion 360. Mediante iteraciones y pruebas directas con usuarios con ceguera, se estandarizó un sistema basado en una jerarquía de alturas y texturas específicas para diferenciar paredes, ventanas, caminos, rutas y calles. El diseño se optimizó desde el inicio previendo un ensamblaje modular.</p>
+
+            <img src="img/hapticos-cad.png" alt="Desarrollo CAD en Fusion 360 - Plano háptico">
+            <img src="img/hapticos-seccion.png" alt="Vista en sección y jerarquía de relieves CAD">
+
+            <h2>Prototipado y Fabricación</h2>
+            <p>Las superficies táctiles se fabrican mediante impresión 3D utilizando filamento PLA, material seleccionado por su viabilidad económica y amplia disponibilidad de colores (factor útil para usuarios con baja visión). Para la manufactura se utiliza una impresora de arquitectura cartesiana Creality Hi. Con el objetivo de reducir tiempos de máquina, minimizar el consumo de plástico y abaratar el costo del producto final, la estructura impresa se ensambla sobre una base de madera de 1mm, la cual provee la rigidez estructural necesaria.</p>
+
+            <h2>Resultado y Uso</h2>
+            <p>El dispositivo se provee en el ingreso de los edificios. Los usuarios exploran el plano de forma táctil para comprender la distribución arquitectónica, las proporciones y los límites físicos antes de recorrer el lugar. La implementación demostró resultados muy positivos, incrementando significativamente el nivel de autonomía de los usuarios para desplazarse por el entorno.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
